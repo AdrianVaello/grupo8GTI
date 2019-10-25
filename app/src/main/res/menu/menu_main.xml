@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pruebafirebase.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_login"
+        android:icon="@drawable/baseline_people_black_18dp"
+        android:orderInCategory="1"
+        android:title="Perfil de Usuario"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/menu_usuario1"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="1"
+        android:title="Perfil de Usuario"
+        app:showAsAction="always|withText" />
+</menu>
